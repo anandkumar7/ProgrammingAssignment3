@@ -61,3 +61,6 @@ Then run the following command to get the final result.
 
 source("C:/anand/coursera_working_dir/run_analysis.R")
 
+## CodeBook.md
+
+The result file variables names are kept in CodeBook.md file.

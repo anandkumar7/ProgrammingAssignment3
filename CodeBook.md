@@ -1,6 +1,9 @@
 1 activity_name
+
 2 activity
+
 3 subject
+
 4 tBodyAcc-mean()-X.train
 5 tBodyAcc-mean()-Y.train
 6 tBodyAcc-mean()-Z.train

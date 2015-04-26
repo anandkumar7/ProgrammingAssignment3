@@ -2,18 +2,22 @@
 Getting And Cleaning Data.
 
 ## Introduction
+
 This program uses data from the accelerometers from the Samsung Galaxy S smartphone which is provided in the assignment web link.  It uses R Programming functionalities to achive the result. It calculates the average of each  mean and standard deviation variable for each activity and each subject for test and training data.
+
 ## It applies the following functionalities to get the final result.
-1.Merges the training and the test sets to create one data set.
-2.Extracts only the measurements on the mean and standard deviation for each measurement. 
-3.Uses descriptive activity names to name the activities in the data set
-4.Appropriately labels the data set with descriptive variable names. 
-5.Calculate the average of each  mean and standard deviation variable for each activity and each subject for test and training data.
+
+*1.Merges the training and the test sets to create one data set.
+*2.Extracts only the measurements on the mean and standard deviation for each measurement. 
+*3.Uses descriptive activity names to name the activities in the data set
+*4.Appropriately labels the data set with descriptive variable names. 
+*5.Calculate the average of each  mean and standard deviation variable for each activity and each subject for test and training data.
 
 ## Following are the activities performed on the web link data to get the desired result.
+
 ### Setting the working dir
 It sets the working dir to my working directory of R.
-## setting the package path and loading the packages
+### setting the package path and loading the packages
 It sets the packages paths and loads the libraries  data.table, plyr and dplyr which are used.
 ### Download the zip and unzip it (This is commented as this is not part of assignment)
 It download the Zip file of the assignment. Though this step is commented out since it is not part of assignment.
@@ -48,7 +52,7 @@ It writes the summary data to a file.
 
 ## How to run the run_analysis.R file
 
-Open the R.
-Then run the following command to get the final result.
-source("C:/anand/coursera_working_dir/run_analysis.R")
+*Open the R.
+*Then run the following command to get the final result.
+*source("C:/anand/coursera_working_dir/run_analysis.R")
 

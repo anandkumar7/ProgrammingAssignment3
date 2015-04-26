@@ -7,11 +7,15 @@ This program uses data from the accelerometers from the Samsung Galaxy S smartph
 
 ## It applies the following functionalities to get the final result.
 
-*1.Merges the training and the test sets to create one data set.
-*2.Extracts only the measurements on the mean and standard deviation for each measurement. 
-*3.Uses descriptive activity names to name the activities in the data set
-*4.Appropriately labels the data set with descriptive variable names. 
-*5.Calculate the average of each  mean and standard deviation variable for each activity and each subject for test and training data.
+1.Merges the training and the test sets to create one data set.
+
+2.Extracts only the measurements on the mean and standard deviation for each measurement. 
+
+3.Uses descriptive activity names to name the activities in the data set.
+
+4.Appropriately labels the data set with descriptive variable names. 
+
+5.Calculate the average of each  mean and standard deviation variable for each activity and each subject for test and training data.
 
 ## Following are the activities performed on the web link data to get the desired result.
 
@@ -52,7 +56,8 @@ It writes the summary data to a file.
 
 ## How to run the run_analysis.R file
 
-*Open the R.
-*Then run the following command to get the final result.
-*source("C:/anand/coursera_working_dir/run_analysis.R")
+Open the R.
+Then run the following command to get the final result.
+
+source("C:/anand/coursera_working_dir/run_analysis.R")
 
